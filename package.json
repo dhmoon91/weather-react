@@ -1,7 +1,7 @@
 {
-  "name": "Stan's weather app",
+  "name": "redux-simple-starter",
   "version": "1.0.0",
-  "description": "simple react app",
+  "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
