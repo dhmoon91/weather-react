@@ -29,5 +29,6 @@
     "react-sparklines": "^1.4.2",
     "redux": "^3.0.4",
     "redux-promise": "^0.5.0"
+
   }
 }
