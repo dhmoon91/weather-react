@@ -11,14 +11,10 @@ import reducers from './reducers';
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 ReactDOM.render(
-    <Provider store={createStoreWithMiddleware(reducers)}>
+<Provider store={createStoreWithMiddleware(reducers)}>
   <Router history={browserHistory}>
-
-
     <Route path="/" component = {App} />
-
-
-</Router>
-  </Provider>
+  </Router>
+</Provider>
   , document.querySelector('.container')
 );
